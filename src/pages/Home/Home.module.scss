@@ -1,0 +1,15 @@
+@mixin dispFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.home{
+    width: 100%;
+    @include dispFlex;
+    
+    @media screen and (max-width: 700px) {
+        height: 100vh;
+        flex-direction: column;
+    }
+}

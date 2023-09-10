@@ -1,0 +1,17 @@
+.logo{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    &_icon{
+        width: 80px;
+    }
+    &_title{
+        font-size: 48px;
+        color:var(--blue) ;
+        font-weight: 700;
+        letter-spacing: -0.7px;
+    }
+}

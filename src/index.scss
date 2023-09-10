@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700&display=swap');
+
+// Variables
+
+:root {
+	// COLORS
+	--cyan-extralight: #F6FAFD;
+	--cyan-light: #CDE3F4;
+	--black: #061119;
+	--blue: #2B82DA;
+	--blue-extralight: #E2EFF8;
+	--blue-light: #D8E8F8;
+	--blue-deep: #1E557B;
+	--blue-dark: #004AAD;
+
+	// FONT-SIZE
+	--fs-xl: 2rem;
+	--fs-l: 1.75rem;
+	--fs-m: 1.5rem;
+	--fs-s: 1.125rem;
+	--fs-xs: 1rem;
+	--fm: "Outfit",-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+}
+
+/*Les restes CSS */
+
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p,
+a, img, i, ul, li,
+article, aside, canvas, embed, 
+figure, figcaption, footer, header, 
+menu, nav, output, ruby, section, summary {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* Réinitialisation du rôle d'affichage HTML5 pour les anciens navigateurs */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+/* GLOBAL CSS */
+
+body{
+	position: relative;
+	background-color: var(--cyan-extralight);
+	font-family: var(--fm);
+	font-size: var(--fs-s);
+	color: var(--black);
+	letter-spacing: -0.2px;
+}
