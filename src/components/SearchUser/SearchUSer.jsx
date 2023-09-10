@@ -6,7 +6,6 @@ import { SearchResults } from "./SearchResults";
 import { config } from "../../utils/config";
 
 const GITHUB_API_ENDPOINT = "https://api.github.com/search/users";
-// const ACCESS_TOKEN = "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";
 
 export const SearchUser = ({ count = 5, size = "m", type = "primary" }) => {
   const [searchValue, setSearchValue] = useState("");
